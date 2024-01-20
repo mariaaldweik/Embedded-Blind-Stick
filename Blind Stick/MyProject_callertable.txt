@@ -1,0 +1,13 @@
+main
+	init_sonar
+interrupt
+	ADC_init
+	ADC_read
+	Mul_16X16_U
+	Div_16X16_U
+	buzzerOn
+		msDelay
+	read_sonar
+		usDelay
+		Mul_32x32_U
+		Div_32x32_U
